@@ -33,12 +33,14 @@ The goals / steps of this project are the following:
 [image11]: ./test_images/thirty.JPG "web image 4"
 [image12]: ./test_images/xthing.jpg "web image 5"
 
+[image13]: ./softmax.jpg "softmax predictions"
+
 ---
 ## Writeup
 
 #### 1. Provide a Writeup / README that includes all the rubric points and how you addressed each one. You can submit your writeup as markdown or pdf. You can use this template as a guide for writing the report. The submission includes the project code.
 
-You're reading it! and here is a link to my [project code](add link)
+You're reading it! and here is a link to my [project code](https://github.com/Z0m6ie/CarND_P2_Traffic_Signs/blob/master/Traffic_Sign_Classifier.ipynb)
 
 ### Data Set Summary & Exploration
 
@@ -182,12 +184,7 @@ The code for making predictions on my final model is located in the 11th cell of
 
 For the first image, the model is relatively sure that this is a stop sign (probability of 0.6), and the image does contain a stop sign. The top five soft max probabilities were
 
-| Image      	|    1st Prediction	|2nd Prediction	|   3rd Prediction	|4th Prediction	| 5th Prediction	|
-|:---------------------:|:---------------------------------------------:|
-| 1st Image Speed limit (100km/h) | 0.51 Slippery Road       | 0.33 Speed limit (60km/h)| 0.08 Dangerous curve to the right| 0.03 Speed limit (50km/h)| 0.02 Right-of-way at the next intersection|
-| 2nd No Vehicles                 | 0.96 No Vehicles	       | 0.03 Priority road| 0.005 Speed limit (100km/h)| 0.004 Speed limit (50km/h)| 0.00 Keep right|
-| 3rd Image Road work             | 0.99 Road work	         | 0.00 Wild animals crossing | 0.00 Speed limit (80km/h) | 0.00 Bicycles crossing| 0.00 Bumpy road|
-| 4th Image Speed limit (30km/h)  | 0.99 Speed limit (30km/h)| 0.00 Speed limit (50km/h)| 0.00 Traffic signals| 0.00 Speed limit (20km/h)| 0.00 General caution|
-| 5th Image No Stopping           | 0.57 Keep right   	     |0.28 Priority road | 0.06 End of all speed and passing limits| 0.04 Turn left ahead| 0.03 Ahead only| |
+![alt text][image13]
+
 
 Note: for any suitably small percentage (less than 0.004) I just showed 0.00
